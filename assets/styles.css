@@ -1,0 +1,429 @@
+/* -------------------- BACKGROUND -------------------- */
+
+.stApp{
+    background-color:#F4F7FE;
+}
+
+
+/* -------------------- SIDEBAR -------------------- */
+
+[data-testid="stSidebar"]{
+    background:linear-gradient(180deg,#0F172A,#1E293B);
+}
+
+[data-testid="stSidebar"] *{
+    color:rgb(14, 2, 56);
+}
+
+
+/* -------------------- METRIC CARDS -------------------- */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-shadow:0 6px 15px rgba(0,0,0,0.08);
+
+    border:none;
+
+    transition:0.3s;
+
+}
+
+[data-testid="metric-container"]:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.18);
+
+}
+
+
+/* -------------------- BUTTON -------------------- */
+
+.stButton > button{
+
+    background:#2563EB !important;
+
+    color:rgb(6, 2, 36) !important;
+
+    font-weight:700;
+
+    border-radius:12px;
+
+    height:48px;
+
+    border:none;
+
+}
+
+.stButton > button:hover{
+
+    background:#1D4ED8 !important;
+
+    color:rgb(16, 1, 52) !important;
+
+}
+
+/* -------------------- FILE UPLOADER -------------------- */
+
+[data-testid="stFileUploader"]{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    border:2px dashed #3B82F6;
+
+    transition:0.3s;
+
+}
+
+
+/* -------------------- DATAFRAME -------------------- */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+}
+
+
+/* -------------------- HEADINGS -------------------- */
+
+h1{
+
+    color:#111827;
+
+    font-weight:800;
+
+}
+
+h2{
+
+    color:#1E293B;
+
+}
+
+h3{
+
+    color:#334155;
+
+}
+
+
+/* -------------------- SUCCESS BOX -------------------- */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
+
+
+/* -------------------- INFO BOX -------------------- */
+
+.stInfo{
+
+    border-radius:12px;
+
+}
+
+
+/* -------------------- WARNING -------------------- */
+
+.stWarning{
+
+    border-radius:12px;
+
+}
+
+
+/* -------------------- CHARTS -------------------- */
+
+.js-plotly-plot{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:10px;
+
+}
+
+
+/* -------------------- FOOTER -------------------- */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+/* Metric Label */
+
+[data-testid="stMetricLabel"]{
+
+    color:#64748B !important;
+
+    font-size:16px;
+
+}
+
+/* Metric Value */
+
+[data-testid="stMetricValue"]{
+
+    color:#111827 !important;
+
+    font-size:34px;
+
+    font-weight:bold;
+
+}
+
+/* ---------------- Metric Label ---------------- */
+
+[data-testid="stMetricLabel"] {
+
+    color: #64748B !important;
+
+    font-size: 15px !important;
+
+}
+
+/* ---------------- Metric Value ---------------- */
+
+[data-testid="stMetricValue"] {
+
+    color: #111827 !important;
+
+    font-size: 34px !important;
+
+    font-weight: bold !important;
+
+}
+
+/* ---------------- Main Title ---------------- */
+
+h1 {
+
+    color: #111827 !important;
+
+    font-weight: 800 !important;
+
+}
+
+/* ---------------- Paragraph ---------------- */
+
+p {
+
+    color: #475569;
+
+}
+
+/* ============================
+      Premium Metric Cards
+============================ */
+
+.metric-card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    border-left:6px solid #2563EB;
+
+    min-height:130px;
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.metric-title{
+
+    color:#64748B;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+.metric-value{
+
+    margin-top:15px;
+
+    color:#0F172A;
+
+    font-size:38px;
+
+    font-weight:800;
+
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] label,
+section[data-testid="stSidebar"] span{
+    color:rgb(255, 255, 255) !important;
+}
+
+/* ---------- Premium Upload Box ---------- */
+
+[data-testid="stFileUploader"]{
+    background: white;
+    border: 2px dashed #3B82F6;
+    border-radius: 28px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: .35s;
+}
+
+[data-testid="stFileUploader"]:hover{
+    transform: translateY(-3px);
+    box-shadow:0 18px 40px rgba(37,99,235,.15);
+}
+
+.metric-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:28px;
+
+    box-shadow:0 15px 35px rgba(15,23,42,.08);
+
+    border:none;
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.metric-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:8px;
+
+    height:100%;
+
+    background:linear-gradient(#2563EB,#60A5FA);
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-8px);
+
+    transition:.35s;
+
+    box-shadow:0 22px 45px rgba(0,0,0,.12);
+
+}
+
+[data-testid="stDataFrame"]{
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.js-plotly-plot{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.stSuccess{
+
+    border-radius:18px;
+
+    border-left:8px solid #22C55E;
+
+}
+
+.stInfo{
+
+    border-radius:18px;
+
+    border-left:8px solid #3B82F6;
+
+}
+
+.block-container{
+
+    padding-top:2rem;
+
+    padding-left:3rem;
+
+    padding-right:3rem;
+
+}
+
+.ai-report{
+    background:#F8FAFC;
+    color:#1F2937 !important;
+    padding:24px;
+    border-radius:16px;
+    border-left:5px solid #2563EB;
+    white-space:pre-wrap;
+    line-height:1.8;
+    font-size:16px;
+}
+
+.ai-report *{
+    color:#1F2937 !important;
+}
+
+/* ---------- Main page text ---------- */
+
+.stApp,
+.stApp p,
+.stApp span,
+.stApp div,
+.stApp li,
+.stApp label,
+.stMarkdown,
+.stMarkdown p,
+.stMarkdown li {
+    color: #1F2937 !important;
+}
